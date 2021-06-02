@@ -4,7 +4,7 @@ import React from "react";
 class Banner extends React.Component {
   constructor(props) {
     super(props);
-    this.click = alert("Нет ссылки");
+    this.click = alert("Привет !!!");
   }
 
   render() {
