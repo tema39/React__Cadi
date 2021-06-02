@@ -1,0 +1,142 @@
+.footer {
+  background: #fffaf2;
+
+  .container__footer {
+    max-width: 1009px;
+    width: 100%;
+
+    margin: 0 auto;
+    padding-top: 93px;
+
+    .footer__title {
+      margin-bottom: 51px;
+
+      font-size: 24px;
+
+      line-height: 29px;
+    }
+    .contact__wrap {
+      display: flex;
+      justify-content: space-between;
+
+      padding-bottom: 70px;
+
+      .list__contact {
+        
+        &-item {
+          margin-bottom: 14px;
+
+          .list__contact-link {
+            font-size: 18px;
+
+            color: #333333;
+            text-decoration: none;
+            line-height: 22px;
+          }
+        }
+      }
+      .list__network {
+        .list__network-item {
+          margin-bottom: 14px;
+
+          .list__networ-link {
+            font-size: 18px;
+
+            color: #333333;
+            text-decoration: none;
+            line-height: 22px;
+          }
+        }
+      }
+      .contact__number-emall {
+
+        .contact__text {
+          margin-bottom: 14px;
+
+          font-size: 18px;
+
+          color: #333333;
+          line-height: 22px;
+        }
+        .contact__number {
+          font-size: 15px;
+
+          color: #333333;
+          line-height: 18px;
+        }
+      }
+      .footer__button-wrap {
+        padding-top: 239px;
+
+        .btn__arrow {
+          border: 0px;
+          background: transparent;
+
+          cursor: pointer;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .footer {
+
+    .container__footer {
+      padding: 90px 10px 0px 10px;
+    }
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    padding-top: 50px;
+
+    .container__footer {
+      padding: 0px 34px;
+
+        .contact__wrap {
+          flex-wrap: wrap;
+
+          padding: 0px 0px;
+
+          .list__contact{
+            margin: 0px 15px 10px 0px;
+          }
+          .list__network{
+            margin-right: 15px;
+          }
+          .footer__title {
+            text-align: center;
+          }
+        }
+      }
+    }
+
+    @media screen and (max-width: 425px) {
+      .footer {
+
+        .container__footer {
+
+          .contact__wrap {
+            flex-wrap: wrap;
+
+            padding: 0px 0px;
+
+            .contact__number-emall {
+              display: flex;
+              flex-direction: column;
+            }
+            .footer__button-wrap {
+              padding: 8px 0px 58px 0px;
+            }
+          }
+        }
+      }
+    }
+  }
+

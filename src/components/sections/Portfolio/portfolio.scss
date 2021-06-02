@@ -1,0 +1,144 @@
+.section__portfolio {
+  padding-top: 93px;
+
+  .title__porfolio {
+    max-width: 1107px;
+    width: 100%;
+
+    margin: 0 auto 86px;
+  }
+  .title__research {
+    max-width: 1107px;
+    width: 100%;
+
+    margin: 0 auto;
+    margin-bottom: 48px;
+
+    font-weight: 600;
+    font-size: 18px;
+
+    line-height: 25px;
+  }
+  .research__container {
+    display: flex;
+    justify-content: space-between;
+
+    max-width: 1107px;
+    width: 100%;
+
+    padding-bottom: 145px;
+    margin: 0 auto;
+
+    .left__research-content {
+      max-width: 449px;
+
+      .text__research {
+        margin: 0 125px 255px 0;
+
+        font-size: 18px;
+
+        color: #333333;
+        line-height: 30px;
+      }
+      .button__left-arrow {
+        margin-right: 14px;
+
+        background: transparent;
+        border: 0px;
+
+        cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+      }
+      .button__right-arrow {
+        background: transparent;
+        border: 0px;
+
+        cursor: pointer;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+    .right__images-research {
+
+      .img__portfolio {
+        width: 100%;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1280px) {
+  .section__portfolio {
+    padding: 93px 34px 0px 34px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .section__portfolio {
+    padding: 25px 20px;
+
+    .title__porfolio {
+      width: unset;
+
+      margin: 0 auto 19px;
+
+      text-align: center;
+    }
+    .title__research {
+      width: unset;
+
+      margin-bottom: 15px;
+
+      text-align: center;
+    }
+    .research__container {
+      flex-wrap: wrap;
+
+      padding-bottom: 0px;
+
+      .left__research-content {
+        width: 100%;
+
+        margin: 0 auto;
+        
+        .text__research {
+          margin: 0 10px 25px 0;
+
+          font-size: 18px;
+
+          color: #333333;
+          text-align: center;
+          line-height: 30px;
+        }
+      }
+      .button__left-arrow {
+        display: none;
+
+        margin-right: 14px;
+
+        background: transparent;
+        border: 0px;
+
+        cursor: pointer;
+      }
+      .button__right-arrow {
+        display: none;
+
+        background: transparent;
+        border: 0px;
+
+        cursor: pointer;
+      }
+    }
+  }
+  .right__images-research {
+    margin: 0 auto;
+
+    .img__portfolio {
+      width: 100%;
+    }
+  }
+}
